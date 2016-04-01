@@ -1,0 +1,94 @@
+
+h1{
+    background: url(../imgs/footer.jpg);
+    width: 523px;
+    height: 93px;
+    margin: 20px auto;
+    text-indent: -20000px;
+}
+
+footer{
+    background: url(../imgs/footer.jpg) bottom;
+    width: 523px;
+    height: 93px;
+    margin: 40px auto;
+    text-indent: -20000px;
+}
+textarea.input-lg,
+textarea{
+    height:160px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #069b97;
+    border-color: #016f6c;
+}
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: #00908c;
+    border-color: #016f6c;
+}
+
+.btn-primary.loading {
+    text-indent: -20000px;
+    background: #069b97 url(../imgs/spinner.gif) 50% no-repeat;
+    border-color: #016f6c;
+}
+
+.loading button{
+    display:none
+}
+
+
+@media (min-width: 800px)
+{
+    .modal-dialog {
+        width: 800px;
+    }
+
+}
+
+@media (max-width: 550px)
+{
+
+    h1{
+        background: url(../imgs/footer.jpg);
+        width: 261px;
+        height: 46px;
+        background-size:261px auto ;
+    }
+
+    footer{
+        background: url(../imgs/footer.jpg) bottom;
+        width: 261px;
+        height: 46px;
+        background-size:261px auto ;
+    }
+}
+
+
+.modal-body {margin: 0; padding: 0; font-family: Verdana, Helvetica, sans; color:#888; font-size:16px; line-height: 1.5em}
+.emailContent {width: 100%; max-width:800px;}
+
+.type-warning .modal-dialog,
+.type-primary .modal-dialog{
+    width:300px;
+    margin: 20% auto;
+}
+
+.type-warning .bootstrap-dialog-message,
+.type-primary .bootstrap-dialog-message{
+    padding: 10px;
+    text-align: center;
+    color: #555;
+}
+
+.type-primary .modal-header {
+    padding: 5px 10px;
+}
+
+.bootstrap-dialog.type-primary .modal-header{
+    background:#069b97;
+}
